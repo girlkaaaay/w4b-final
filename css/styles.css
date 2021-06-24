@@ -1,0 +1,281 @@
+ul li {
+    display: inline-block;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 60px;
+    margin-left: 125px;
+}
+
+ul {
+    margin-top: -80px;
+}
+
+header {
+    background-color: white;
+    font-family: 'Indie Flower', cursive;
+    height: 75px;
+    font-size: 75px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+
+.navbar {
+    background-color: rgb(18, 12, 71);
+    height: 150px;
+    display: block;
+    margin: 10px;
+    width: 99%;
+    font-family: 'Indie Flower', cursive;
+}
+
+.navbar li:hover {
+    color: yellow;
+}
+
+.navbar li:visited {
+    color: rgb(134, 42, 6)
+}
+
+.navbar li:active {
+    color: salmon
+}
+
+.card {
+    width: 200px;
+    border: 2px solid;
+}
+
+.navbar img {
+    height: 125px;
+    padding-right: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+section {
+    background-color: #FCCA46;
+    height: 400px;
+    border: 2px solid;
+    background-image: url(/images/boodle\ fight.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section p {
+    text-shadow: 2px 2px #1604B3;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+section p:hover {
+    color: rgb(40, 2, 71);
+}
+
+article {
+    background-color: #A1C181;
+    height: 400px;
+    border: 2px solid;
+    text-align:center;
+    font-family: 'Indie Flower', cursive;
+}
+
+article p {
+    text-shadow: 2px 2px #120B57;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.left {
+    width: 50%;
+    box-shadow: 0 15px 6px -6px black;
+}
+
+aside {
+    float: right;
+    width: 49%;
+    background-image: url(/images/food1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #511C29;
+    background-position: center center;
+    height: 808px;
+    margin-top: -808px;
+    box-shadow: 0 15px 6px -6px black;
+}
+
+aside p {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+.row {
+    display: flex;
+    padding: 20px;
+    font-family:'Indie Flower', cursive;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    background-color: #FE7F2D;
+    padding-block: 25px;
+}
+
+.column2 {
+    float: left;
+    width: 25%;
+    background-color: #FE7F2D;
+    padding-block: 25px;
+}
+
+.column3 {
+    float: left;
+    width: 25%;
+    background-color: #FE7F2D;
+    padding-block: 25px;
+}
+
+.column4 {
+    float: left;
+    width: 25%;
+    background-color: #FE7F2D;
+    padding-block: 25px;
+}
+
+h2  {
+    
+    font-family: 'Indie Flower', cursive;
+}
+
+footer {
+    background: linear-gradient(#342768, #191d4e);
+    height: 100px;
+    width: 99%;
+    clear: both;
+    margin: 10px;
+}
+
+    footer p {
+        color: white;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .fa {
+        padding: 20px;
+        text-decoration:none;
+        border-radius: 25%;
+        margin: 20px 20px;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #3B5998;
+        color: white;
+    }
+
+    footer a {
+        padding-top: 20px;
+    }
+
+    /* Contact Page/CSS */
+
+    main p {
+        font-size: 15px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+    }
+
+    .container {
+        border-radius: 20px;
+        background-color: tomato;
+        padding: 25px;
+    }
+
+    /* About Page/CSS */
+
+    .about-page-paragraph p {
+        font-size: 18px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+        padding: 25px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .about-page-paragraph img {
+        height: 500px;
+        width: 400px;
+    }
+
+    .contact-container {
+        display: flex;
+    }
+
+    #form-container {
+        display: flex;
+        margin: 50px 50px;
+        flex-direction: column;
+        width: 500px;
+        height: 500px;
+        border: 2px solid;
+    }
+
+    #form-container input {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #form-container label {
+        padding: 10px;
+    }
+
+   textarea {
+        height: 30px;
+        width: 300px;
+        margin-left: 70px;
+    }
+
+    iframe {
+        margin: 50px 50px;
+    }
+    
+    button {
+        width: 50px;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
